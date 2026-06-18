@@ -1,0 +1,574 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.vid {
+	margin: 0 auto; 
+	position: fixed;
+	min-width: 100%; 
+	min-height: 100%; 
+	z-index: -1;
+	background-size: cover;
+}
+
+.site {
+	width: 1500px;
+	height: 1640px;
+	background: #5effff;
+	margin: 0 auto;
+
+}
+
+.header {
+	width: 1500px;
+	height: 320px;
+	background: #03ffff;
+}
+
+.logo {
+	width: 1500px;
+	height: 200px;
+	background: #48cc45;
+}
+
+.text a{
+	text-decoration:none;
+	text-align:center;
+	color: #000;
+	font: 30px "Comic Sans MS", Times, serif;
+}
+
+.text h1{
+	font: 50px;
+}
+
+.text {
+	display:flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.picture{
+	width: 300px;
+	height: 200px;
+	background: #fff;
+	float: left;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.picture img{
+	width: 150px;
+	height: 150px;
+}
+
+.text{
+	width: 1200px;
+	height: 200px;
+	background: #fff;
+	float: right;
+}
+
+.menu {
+	width: 1500px;
+	height: 120px;
+	background: #39a337;
+}
+
+.navigation {
+	list-style-type: none;
+	height: 120px;
+	font: 20px "Comic Sans MS", Times, serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navigation li:hover {
+	display: block;
+}
+
+.navigation li {
+	float: none;
+}
+
+.navigation li:hover {
+	background-color: #ededed;
+}
+
+.navigation li {
+	position: relative;
+	height: 100%;
+}
+
+.navigation li a {
+	display: inline-block;
+	width: 250px;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	color:#000;
+}
+
+.main {
+	width: 1500px;
+	height: 900px;
+	background: #fff;
+	position:relative;
+	text-align: center;
+}
+
+.main h1{
+	font: 50px "Comic Sans MS", Times, serif;
+}
+
+.main form {
+	width: 1000px;
+	height: 600px;
+	background: #fff;
+	text-align: center;
+	position: absolute;
+	top: 190px;
+	left: 250px;
+}
+
+.login{
+	width: 290px; 
+	margin: 100px 160px 10px;  
+}
+
+.login input{
+	width: 700px; 
+	height: 50px; 
+	padding: 5px; 
+	margin: 0 0 10px; 
+	font: 30px "Comic Sans MS", Times, serif;
+}
+
+.password{
+	width: 290px; 
+	margin: 0 160px 10px; 
+}
+
+.password input{
+	width: 700px; 
+	height: 50px; 
+	padding: 5px; 
+	margin: 0 0 10px; 
+	font: 30px "Comic Sans MS", Times, serif;
+}
+
+.checkbox {
+	font: 20px "Comic Sans MS", Times, serif;
+}
+
+.button1 {
+	width: 270px; 
+	height: 30px; 
+	margin: 100px 350px 10px; 
+	color: #000; 
+	
+}
+
+.button1 button{
+	width: 300px; 
+	height: 50px;
+	cursor: pointer;
+	border: 1px solid ;
+    border-radius: 10px;
+	background: #d3fad2;
+	font: 30px "Comic Sans MS", Times, serif;
+}
+
+.main textarea:focus {
+	background: #e0e0e0;
+}
+
+.main input:focus {
+	background: #e0e0e0;
+}
+
+.main button:hover {
+	background: #39a337;
+}
+
+.footer {
+	width: 1500px;
+	height: 420px;
+	background: #023801;
+	color: #fff;
+}
+
+.footer p{
+	padding: 20px;
+	font: 15px "Comic Sans MS", Times, serif;
+}
+
+.footer a{
+	text-decoration:none;
+	color: #fff;
+}
+
+/*вторая стр*/
+
+.form2 form {
+	width: 1450px;
+	height: 780px;
+	background: #fff;
+	text-align: center;
+	position: absolute;
+	top: 100px;
+	left: 20px;
+}
+
+.name{
+	width: 290px; 
+	margin: 30px 450px 10px;  
+}
+
+.name input{
+	width: 500px; 
+	height: 50px; 
+	padding: 5px; 
+	margin: 0 0 10px; 
+	font: 30px "Comic Sans MS", Times, serif;
+}
+
+.grup{
+	width: 290px; 
+	float: right; 
+	margin: 0 90px 10px;
+}
+
+.grup input{
+	width: 350px; 
+	height: 50px; 
+	padding: 5px; 
+	margin: 0 0 10px; 
+	font: 30px "Comic Sans MS", Times, serif;
+}
+
+.rectangle {
+	width: 220px;
+	height: 300px;
+	border: 3px solid #000;
+	float: left;
+	margin: 30px 110px 20px;
+}
+
+.surname{
+	width: 290px; 
+	margin: 0 450px 10px;  
+}
+
+.surname input{
+	width: 500px; 
+	height: 50px; 
+	padding: 5px; 
+	margin: 0 0 10px; 
+	font: 30px "Comic Sans MS", Times, serif;
+}
+
+.otchestvo{
+	width: 290px; 
+	margin: 0 450px 0;  
+}
+
+.otchestvo input{
+	width: 500px; 
+	height: 50px; 
+	padding: 5px; 
+	margin: 0 0 10px; 
+	font: 30px "Comic Sans MS", Times, serif;
+}
+
+.message{
+	width: 280px;
+	height: 150px;
+	padding: 10px;
+}
+
+.message textarea{
+	width: 400px;
+	height: 300px;
+	resize: none;
+	padding: 10px;
+	border: 1px solid ;
+    border-radius: 10px;
+	font: 20px "Comic Sans MS", Times, serif;
+}	
+
+.button4 a{
+	width: 100px;
+	height: 40px;
+	margin: 280px 130px 10px;
+	float: right;	
+	font: 20px "Comic Sans MS", Times, serif;
+	background: #ededed;
+	border: 2px solid ;
+    border-radius: 10px;
+	text-decoration:none;
+	color: #000;
+}
+.button4 a:hover {
+	background: #39a337;
+}
+.button5 a{
+	width: 100px;
+	height: 40px;
+	margin: 30px 0 0;
+	float: right;	
+	font: 20px "Comic Sans MS", Times, serif;
+	background: #ededed;
+	border: 2px solid ;
+    border-radius: 10px;
+	text-decoration:none;
+	color: #000;
+}
+.button6 a:hover {
+	background: #39a337;
+}
+.button6 a{
+	width: 100px;
+	height: 40px;
+	margin: 100px 0 0;
+	float: right;	
+	font: 20px "Comic Sans MS", Times, serif;
+	background: #ededed;
+	border: 2px solid ;
+    border-radius: 10px;
+	text-decoration:none;
+	color: #000;
+}
+.button5 a:hover {
+	background: #39a337;
+}
+.file{
+	width: 280px; 
+	margin: 0 80px 30px; 
+}
+
+.file input{
+	width: 280px;
+	padding: 3px;
+	border: 2px solid ;
+    border-radius: 3px;
+}
+
+.file input{
+	cursor: pointer;
+}
+
+/* третья стр */
+
+.form3 p{
+	font: 20px "Comic Sans MS", Times, serif;
+}
+
+.form3 form {
+	width: 1000px;
+	height: 770px;
+	background: #fff;
+	text-align: center;
+	position: absolute;
+	top: 120px;
+	left: 250px;
+}
+
+.name3{
+	width: 400px; 
+	padding: 5px; 
+	margin: 0 300px 10px; 
+
+}
+
+.name3 input{
+	width: 400px; 
+	height: 30px; 
+	padding: 5px; 
+	margin: 0 0 10px; 
+	font: 20px "Comic Sans MS", Times, serif;
+}
+
+
+.tel3{
+	width: 400px; 
+	padding: 5px; 
+	margin: 0 300px 10px; 
+}
+
+.tel3 input{
+	width: 400px; 
+	height: 30px; 
+	padding: 5px; 
+	margin: 0 0 10px; 
+	font: 20px "Comic Sans MS", Times, serif;
+}
+
+.email3{
+	width: 400px; 
+	padding: 5px; 
+	margin: 0 300px 10px; 
+
+}
+
+.email3 input{
+	width: 400px; 
+	height: 30px;  
+	padding: 5px; 
+	margin: 0 0 10px; 
+	font: 20px "Comic Sans MS", Times, serif;
+}
+
+.password2{
+	width: 400px; 
+	padding: 5px; 
+	margin: 0 300px 10px; 
+}
+
+.password2 input{
+	width: 300px; 
+	height: 30px; 
+	padding: 5px; 
+	margin: 0 0 10px; 
+	font: 20px "Comic Sans MS", Times, serif;
+}
+
+.date3{
+	width: 400px; 
+	padding: 5px; 
+	margin: 0 300px 10px; 
+}
+
+.date3 input{
+	width: 200px; 
+	height: 20px; 
+	padding: 5px; 
+	margin: 0 0 10px;
+	font: 20px "Comic Sans MS", Times, serif;
+}
+
+.gender3{
+	width: 400px; 
+	padding: 5px; 
+	margin: 0 300px 10px; 
+	font: 20px "Comic Sans MS", Times, serif;
+}
+
+.button3 {
+	width: 300px; 
+	height: 30px; 
+	margin: 70px 360px 10px; 
+	color: #000; 
+	
+}
+
+.button3 button{
+	width: 300px; 
+	height: 50px;
+	cursor: pointer;
+	border: 1px solid ;
+    border-radius: 10px;
+	background: #d3fad2;
+	font: 30px "Comic Sans MS", Times, serif;
+}
+
+.main textarea:focus {
+	background: #e0e0e0;
+}
+
+.main input:focus {
+	background: #e0e0e0;
+}
+
+.main button:hover {
+	background: #39a337;
+}
+
+.footer {
+	width: 1500px;
+	height: 420px;
+	background: #023801;
+	color: #fff;
+}
+
+.footer p{
+	padding: 20px;
+	font: 15px "Comic Sans MS", Times, serif;
+}
+
+/* четвёртая стр*/
+
+.sliders{
+	width:1500px;
+	height:450px;
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	background: #ededed;
+	background-image: url("звезда.gif");
+}
+
+.foto img{
+	width: 300px;
+	height: 250px;
+}
+
+.sliders input{
+	
+	display:none;
+}
+
+.sliders input + label
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background: #ededed;
+    border: 2px solid #023801;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+    right:0%;
+    top: 45%;
+    transition: background 0.8s ease-out 0s;
+}
+
+.sliders input + label:hover
+{
+    background: #d3fad2;
+}
+
+.sliders input:checked + label
+{
+    background: #39a337;
+}
+
+.sliders div
+{
+    position: absolute;
+    visibility: hidden;
+}
+
+.sliders img
+{
+    width:680px;
+    height:450px;
+	
+}
+
+.sliders input:checked + label + div
+{
+    visibility: visible;
+}
+
+.text2 {
+	font: 30px "Comic Sans MS", Times, serif;
+	padding: 50px;
+	text-align: center;
+}
